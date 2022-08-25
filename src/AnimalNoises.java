@@ -20,6 +20,7 @@ import model.Camel;
 import model.Owl;
 import model.Cow;
 import model.Rhino;
+import model.Shark;
 import model.Turtle;
 
 public class AnimalNoises {
@@ -105,6 +106,9 @@ public class AnimalNoises {
 
 		Tortoise tonka = new Tortoise();
 		System.out.println(tonka.makeNoise());
+		
+		Shark jaws = new Shark();
+		System.out.println(jaws.makeNoise());
 
 	}
 
