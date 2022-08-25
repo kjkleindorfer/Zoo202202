@@ -1,5 +1,6 @@
 import model.Cat;
 import model.Hippo;
+import model.Meerkat;
 import model.Nuthatch;
 import model.Pig;
 import model.Sheep;
@@ -21,6 +22,8 @@ import model.Owl;
 import model.Cow;
 import model.Rhino;
 import model.Turtle;
+import model.Frog;
+import model.Alpaca;
 
 public class AnimalNoises {
 	
@@ -105,6 +108,9 @@ public class AnimalNoises {
 
 		Tortoise tonka = new Tortoise();
 		System.out.println(tonka.makeNoise());
+		
+		Meerkat timon = new Meerkat();
+		System.out.println(timon.speak());
 
 	}
 
