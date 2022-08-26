@@ -1,4 +1,4 @@
-
+package model;
 
 /**  
 * @author Zach Meyer - zjmeyer  
