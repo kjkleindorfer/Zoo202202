@@ -105,6 +105,9 @@ public class AnimalNoises {
 
 		Tortoise tonka = new Tortoise();
 		System.out.println(tonka.makeNoise());
+		
+		Spider furball = new Spider();
+		System.out.println(furball.makeNoise());
 
 	}
 
