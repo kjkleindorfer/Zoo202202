@@ -1,3 +1,4 @@
+package model;
 
 /**
  * @author Owen Miner - osminer
@@ -10,7 +11,7 @@ public class Alpaca {
 	private String name;
 	
 	public Alpaca(){ //default constructor
-		supoer();
+		super();
 	}
 	public Alpaca(String coatColor, Boolean isAlone, String name){//non-default constructor
 		super();
@@ -29,7 +30,7 @@ public class Alpaca {
 	public void setIsAlone() {
 		this.isAlone = isAlone;
 	}
-	public String getIsAlone() {
+	public Boolean getIsAlone() {
 		return isAlone;
 	}
 	
