@@ -11,14 +11,17 @@ import model.Ferret;
 import model.Fish;
 import model.Turkey;
 import model.Fox;
+import model.Frog;
 import model.Goat;
 import model.Monkey;
+import model.Alpaca;
 import model.Bat;
 import model.Bear;
 import model.Blobfish;
 import model.Camel;
 import model.Owl;
 import model.Cow;
+import model.Crab;
 import model.Rhino;
 import model.Turtle;
 
@@ -105,6 +108,9 @@ public class AnimalNoises {
 
 		Tortoise tonka = new Tortoise();
 		System.out.println(tonka.makeNoise());
+		
+		Crab MrCrabs = new Crab();
+		System.out.println(MrCrabs.makeNoise());
 
 	}
 
