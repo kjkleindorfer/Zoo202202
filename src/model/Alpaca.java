@@ -4,6 +4,8 @@
  * CIS175 - Spring 2022
  * Jan 20, 2022
  */
+
+/*
 public class Alpaca {
 	private String coatColor;
 	private Boolean isAlone; //For context - Alpacas will literally die of being lonley and are only sold in pairs of two or more
@@ -46,3 +48,5 @@ public class Alpaca {
 	
 		
 }
+
+ */
