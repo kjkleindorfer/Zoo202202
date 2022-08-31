@@ -1,26 +1,4 @@
-import model.Cat;
-import model.Hippo;
-import model.Nuthatch;
-import model.Pig;
-import model.Sheep;
-import model.Snake;
-import model.Tortoise;
-import model.Tiger;
-import model.Dog;
-import model.Ferret;
-import model.Fish;
-import model.Turkey;
-import model.Fox;
-import model.Goat;
-import model.Monkey;
-import model.Bat;
-import model.Bear;
-import model.Blobfish;
-import model.Camel;
-import model.Owl;
-import model.Cow;
-import model.Rhino;
-import model.Turtle;
+import model.*;
 
 public class AnimalNoises {
 	
@@ -73,8 +51,8 @@ public class AnimalNoises {
 		Hippo hip = new Hippo();
 		System.out.println(hip.makeNoise());
 		
-		Alpaca joe = new Alpaca();
-		System.out.println(joe.makeNoise());
+		//Alpaca joe = new Alpaca();
+		//System.out.println(joe.makeNoise());
 
 		Camel camel = new Camel();
 		System.out.println(camel.speak());
@@ -105,6 +83,9 @@ public class AnimalNoises {
 
 		Tortoise tonka = new Tortoise();
 		System.out.println(tonka.makeNoise());
+
+		Crow crow = new Crow();
+		System.out.println(crow.speak());
 
 	}
 
