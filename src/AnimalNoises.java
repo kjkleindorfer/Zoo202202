@@ -11,8 +11,11 @@ import model.Ferret;
 import model.Fish;
 import model.Turkey;
 import model.Fox;
+import model.Frog;
+import model.Giraffe;
 import model.Goat;
 import model.Monkey;
+import model.Alpaca;
 import model.Bat;
 import model.Bear;
 import model.Blobfish;
@@ -105,6 +108,9 @@ public class AnimalNoises {
 
 		Tortoise tonka = new Tortoise();
 		System.out.println(tonka.makeNoise());
+		
+		Giraffe fred = new Giraffe();
+		System.out.println(fred.makeNoise());
 
 	}
 
