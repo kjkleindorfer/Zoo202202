@@ -1,4 +1,4 @@
-
+package model;
 /**
  * @author Owen Miner - osminer
  * CIS175 - Spring 2022
@@ -10,7 +10,7 @@ public class Alpaca {
 	private String name;
 	
 	public Alpaca(){ //default constructor
-		supoer();
+		super();
 	}
 	public Alpaca(String coatColor, Boolean isAlone, String name){//non-default constructor
 		super();
