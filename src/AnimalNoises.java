@@ -21,7 +21,7 @@ import model.Owl;
 import model.Cow;
 import model.Rhino;
 import model.Turtle;
-
+import model.Badger;
 public class AnimalNoises {
 	
 	// add your animal class to the model package
@@ -105,6 +105,9 @@ public class AnimalNoises {
 
 		Tortoise tonka = new Tortoise();
 		System.out.println(tonka.makeNoise());
+		
+		Badger bucky = new Badger();
+		System.out.println(bucky.makeNoise());
 
 	}
 
