@@ -1,3 +1,4 @@
+import model.Goose;
 import model.Cat;
 import model.Hippo;
 import model.Nuthatch;
@@ -28,8 +29,12 @@ public class AnimalNoises {
 	// only push this file and the animal class you created
 
 	public static void main(String[] args) {
+		Goose garry = new Goose();
+		System.out.println(garry.speak());
+		
 		Cat garfield = new Cat();
 		System.out.println(garfield.speak());
+	
 		
 		Nuthatch noona = new Nuthatch();
 		System.out.println(noona.speak());
