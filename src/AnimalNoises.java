@@ -9,6 +9,7 @@ import model.Ferret;
 import model.Fish;
 import model.Turkey;
 import model.Fox;
+import model.Giraffe;
 import model.Goat;
 import model.Monkey;
 import model.Bat;
@@ -69,6 +70,8 @@ public class AnimalNoises {
 		Pig charlotte = new Pig();
 		System.out.println(charlotte.speak());
 
+		Giraffe chad = new Giraffe();
+		System.out.println(chad.makeNoise());
 
 	}
 
