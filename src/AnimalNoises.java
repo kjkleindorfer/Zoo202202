@@ -21,6 +21,7 @@ import model.Owl;
 import model.Cow;
 import model.Rhino;
 import model.Turtle;
+import model.Chinchilla;
 
 public class AnimalNoises {
 	
@@ -105,7 +106,10 @@ public class AnimalNoises {
 
 		Tortoise tonka = new Tortoise();
 		System.out.println(tonka.makeNoise());
-
+		
+		Chinchilla parsley = new Chinchilla();
+		System.out.println(parsley.makeNoise());
+		
 	}
 
 }
